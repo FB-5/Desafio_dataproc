@@ -38,4 +38,6 @@ NOTA: Se o Job mostrar um WARN de Interrupt, basta ignorar. Existe um bug no Had
 
 Qualquer outra dúvida, informação ou sugestão, fique a vontade para entrar em contato.
 
-marcelo@smarques.com
+Desenvolvimento:
+Passo - acessar o Cloud Shell > clonar o repositório do Github > acessar (cd {nome do arquivo do github}) > listar (ls -ls) > criar bucket (já cria - acessar {gsutil ls})
+> 
