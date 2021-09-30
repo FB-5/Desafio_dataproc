@@ -40,4 +40,4 @@ Qualquer outra dúvida, informação ou sugestão, fique a vontade para entrar e
 
 Desenvolvimento:
 Passo - acessar o Cloud Shell > clonar o repositório do Github > acessar (cd {nome do arquivo do github}) > listar (ls -ls) > criar bucket (já cria - acessar {gsutil ls})
-> vim  contador.py  (atualizar o arquivo alterando o nome do Bucket)
+> vim  contador.py  (atualizar o arquivo alterando o nome do Bucket) > colar em "seu Bucket" por nome do bucket > 
