@@ -17,7 +17,7 @@ O desafio consiste em efetuar um processamento de dados utilizando o produto Dat
 ### Etapas do Desafio
 
 1. Criar um bucket no Cloud Storage
-1. Atualizar o arquivo ```contador.py``` com o nome do Bucket criado nas linhas que contém ```{SEU_BUCKET}```.
+1. Atualizar o arquivo ```contador.py``` com o nome do Bucket criado nas linhas que contém ```{SEU_BUCKET 
 1. Fazer o upload dos arquivos ```contador.py``` e ```livro.txt``` para o bucket criado (instruções abaixo)
     - https://cloud.google.com/storage/docs/uploading-objects
 
@@ -40,4 +40,4 @@ Qualquer outra dúvida, informação ou sugestão, fique a vontade para entrar e
 
 Desenvolvimento:
 Passo - acessar o Cloud Shell > clonar o repositório do Github > acessar (cd {nome do arquivo do github}) > listar (ls -ls) > criar bucket (já cria - acessar {gsutil ls})
-> 
+> vim  contador.py  (atualizar o arquivo alterando o nome do Bucket)
