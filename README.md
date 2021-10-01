@@ -1,10 +1,4 @@
-# Digital Innovation One
-
-Código criado para utilização junto a plataforma da Digital Innovation One
-
-<p align="center"><img src="./DIO.png" width="500"></p>
-
-## Desafio GCP Dataproc
+# Desafio GCP Dataproc
 
 O desafio faz parte do curso na plataforma da Digital Innovation One:
 
@@ -24,6 +18,11 @@ O desafio consiste em efetuar um processamento de dados utilizando o produto Dat
 1. Utilizar o código em um cluster Dataproc, executando um Job do tipo PySpark chamando ```gs://{SEU_BUCKET}/contador.py```
 1. O Job irá gerar uma pasta no bucket chamada ```resultado```. Dentro dessa pasta o arquivo ```part-00000``` irá conter a lista de palavras e quantas vezes ela é repetida em todo o livro.
 
+
+Desenvolvimento:
+
+Passo - acessar o Cloud Shell > clonar o repositório do Github > acessar (cd {nome do arquivo do github}) > listar (ls -ls) > criar bucket (já cria - acessar {gsutil ls}) > vim  contador.py  (atualizar o arquivo alterando o nome do Bucket) > colar em "seu Bucket" por nome do bucket > 
+
 ### Entrega do Resultado
 
 1. Criar um repositório no GitHub.
@@ -36,8 +35,6 @@ O desafio consiste em efetuar um processamento de dados utilizando o produto Dat
 
 NOTA: Se o Job mostrar um WARN de Interrupt, basta ignorar. Existe um bug no Hadoop que é conhecido. Isso não impacta no processamento.
 
-Qualquer outra dúvida, informação ou sugestão, fique a vontade para entrar em contato.
 
-Desenvolvimento:
-Passo - acessar o Cloud Shell > clonar o repositório do Github > acessar (cd {nome do arquivo do github}) > listar (ls -ls) > criar bucket (já cria - acessar {gsutil ls})
-> vim  contador.py  (atualizar o arquivo alterando o nome do Bucket) > colar em "seu Bucket" por nome do bucket > 
+
+
