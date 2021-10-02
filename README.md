@@ -19,10 +19,6 @@ O desafio consiste em efetuar um processamento de dados utilizando o produto Dat
 1. O Job irá gerar uma pasta no bucket chamada ```resultado```. Dentro dessa pasta o arquivo ```part-00000``` irá conter a lista de palavras e quantas vezes ela é repetida em todo o livro.
 
 
-Desenvolvimento:
-
-Passo - acessar o Cloud Shell > clonar o repositório do Github > acessar (cd {nome do arquivo do github}) > listar (ls -ls) > criar bucket (já cria - acessar {gsutil ls}) > vim  contador.py  (atualizar o arquivo alterando o nome do Bucket) > colar em "seu Bucket" por nome do bucket > 
-
 ### Entrega do Resultado
 
 1. Criar um repositório no GitHub.
